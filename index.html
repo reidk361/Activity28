@@ -10,58 +10,49 @@
 </head>
 
 <body>
-    <header>
+    <header class="heading">
         <h1>CSS Snippet Cheatsheet</h1>
         <h3>Here are some snippets of CSS that I have found very useful.</h3>
     </header>
    
-    <!--For textarea, I have to have it formatted like this to display properly in the text box.
+    <!--For <pre>, I have to have it formatted like this to display properly in the text box.
     If I use proper formatting, it will include the indentions in the textbox. 
-    This is undesired, so not indenting them is my work around.-->
+    This is undesired, so putting them in one line is my work around.-->
     <main>
         <section class="box">
             <header>Flexbox Row</header>
             <p>This makes your flexboxes rows.</p>
-            <textarea readonly rows="10" cols="40">
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-            </textarea>
+            <pre>display: flex;<br />flex-direction: row;<br />flex-wrap: wrap;<br /></pre>
         </section>
         <section class="box">
             <header>Flexbox Column</header>
             <p>This makes your flexboxes columns.</p>
-            <textarea readonly rows="10" cols="40">
-display: flex;
-flex-direction: column;
-            </textarea>
+            <pre>display: flex;<br />flex-direction: column;</pre>
         </section>
         <section class="box">
-            <header>CSS Grid Layout</header>
-            <p>Placeholder Text</p>
-            <textarea readonly rows="10" cols="40">Select Text</textarea>
+            <header>Adding a Breakpoint</header>
+            <p>Allows the page to change when a condition is met.</p>
+            <pre>@media screen and (max-width:1380px) {<br />   .box {<br />        min-width: 46%;<br />    }<br />}</pre>
         </section>
         <section class="box">
             <header>Linear Gradients</header>
             <p>This creates a gradient in whatever you are applying this background to.</p>
-            <textarea readonly rows="10" cols="40">
-background-image:linear-gradient( 
-rgb(47,79,79) 0%,
-rgb(211,211,211) 100%
-)
-            </textarea>
+            <pre>background-image:linear-gradient(<br />    rgb(47,79,79) 0%,<br />    rgb(211,211,211) 100%<br />)</pre>
         </section>
         <section class="box">
             <header>Box Transition Glow</header>
-            <p>Placeholder Text</p>
-            <textarea  readonly rows="10" cols="40">Select Text</textarea>
+            <p>Places a glow around the box when you hover over that box.</p>
+            <pre>.box header {<br />    transition: all 0.5s ease-in-out;<br />}<br /><br />.box:hover,.box:hover .box  {<br />    box-shadow: inset 0px 0px 8px<br />    rgba(127, 255, 212), 0 0 15px<br />    rgba(135,206,235);<br />}<br /></pre>
         </section>
         <section class="box">
             <header>Overlay Card with Title</header>
             <p>Placeholder Text</p>
-            <textarea readonly rows="10" cols="40">Select Text</textarea>
+            <pre>Select Text</pre>
         </section>
     </main>
+    <footer>
+        <h3>If you have any recommendations, please reach out to me on Slack.</h3>
+    </footer>
 </body>
 
 </html>
