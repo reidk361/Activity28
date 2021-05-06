@@ -16,6 +16,7 @@ main {
 header {
     color:aquamarine;
     font-weight: bold;
+    background-color: slategray;
 }
 
 h3 {
@@ -29,7 +30,7 @@ p {
 
 
 .box {
-    border: lightgray solid 5px;
+    border: lightslategray solid 5px;
     margin: 10px;
     min-width: 23%;
     max-width: 23%;
@@ -40,8 +41,9 @@ p {
 textarea {
     color: skyblue;
     background-image:linear-gradient( 
-        rgb(47,79,79) 0%,
-        rgb(211,211,211) 100%
+        rgb(47, 79, 79) 0%,
+        rgb(112, 128, 144) 50%,
+        rgb(119,136,153) 100%
     );
     text-align: left;
     user-select: all;
