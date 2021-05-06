@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-/*Image courtesy of https://wallpaperaccess.com/full/1489217.jpg */
+/* Image courtesy of https://wallpaperaccess.com/full/1489217.jpg */
 body {
     background-color: darkslategray;
     background-image: url("Dark-Black-Background-Texture.jpg");
@@ -75,7 +75,6 @@ p {
     border-radius: 10px;
     position: relative;
     margin-top: -20px;
-    opacity: 1;
         }
 
 .box:hover, .box:hover header {
